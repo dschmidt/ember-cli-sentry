@@ -16,7 +16,7 @@ export function initialize(application) {
     debug = true,
     includePaths = [],
     whitelistUrls = [],
-    serviceName = 'logger'
+    serviceName = 'logger',
     releaseProperty = 'release'
   } = config.sentry;
 
